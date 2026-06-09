@@ -18,7 +18,8 @@ A collection of workflow automations built with n8n to streamline HR, document m
 
 
 # 4. Service Agreement - Completed 
-<img width="1625" height="888" alt="Service Agreement - Completed" src="https://github.com/user-attachments/assets/34efb408-9cbc-47a6-abe0-eccfb5303e24" />
+<img width="1644" height="936" alt="Service Agreement - Completed" src="https://github.com/user-attachments/assets/21fab2be-d80f-411b-9111-f1b4c5b5a4f0" />
+
 
 
 # 5. Pricing Upload Notification
