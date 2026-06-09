@@ -61,12 +61,11 @@ Tracks when a service agreement is successfully sent and updates related records
 
 * Automated status updates
 * Activity logging
-* Stakeholder notifications
 * Reduced manual tracking
 
 ### Workflow Diagram
 
-![Service Agreement Sent](images/service-agreement-sent.png)
+<img width="958" height="772" alt="Service Agreement - Sent Workflow Full View" src="https://github.com/user-attachments/assets/8052cca8-e633-4098-9f12-1aa2eae35794" />
 
 ---
 
