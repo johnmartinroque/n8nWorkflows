@@ -28,9 +28,11 @@ Automates the transfer of employee onboarding documents from Monday.com to Share
 * Compresses multiple uploaded files into a single ZIP archive before storage.
 * Uploads processed files directly to SharePoint for centralized document management.
 
-### Technologies
+### Integrations Used
 
-* n8n
+* Webhooks
+* HTTP
+* JavaScript
 * Monday.com
 * SharePoint
 
@@ -58,12 +60,15 @@ Tracks PandaDoc service agreements when documents are sent to clients.
   * Microsoft Excel Client Tracker
   * Monday.com Client Tracker Board
 
-### Technologies
+### Integrations Used
 
-* n8n
+* Webhooks
+* HTTP
 * PandaDoc
-* Microsoft Excel
+* JavaScript
 * Monday.com
+* Excel
+
 
 ---
 
@@ -89,12 +94,13 @@ Tracks when clients open and view service agreements.
   * Microsoft Excel Client Tracker
   * Monday.com Client Tracker Board
 
-### Technologies
+### Integrations Used
 
-* n8n
+* Webhooks
 * PandaDoc
-* Microsoft Excel
+* JavaScript
 * Monday.com
+* Excel
 
 ---
 
@@ -125,12 +131,13 @@ Automates the final stage of the service agreement lifecycle after client comple
   * Point of Contact (POC)
 * Ensures seamless handoff from sales to account management.
 
-### Technologies
+### Integrations Used
 
-* n8n
+* Webhooks
 * PandaDoc
-* Microsoft Excel
+* JavaScript
 * Monday.com
+* Excel
 
 ---
 
@@ -151,6 +158,8 @@ Automates internal pricing notifications between recruitment and finance/sales t
 
 ### Technologies
 
-* n8n
+* Webhooks
+* Monday.com
 * Microsoft Outlook
-* Internal Operations Workflow
+* HTTP
+* JavaScript
