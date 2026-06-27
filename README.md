@@ -1,6 +1,6 @@
 # n8n Workflow Portfolio
 
-A collection of workflow automations built using n8n to streamline internal business processes, document management, notifications, and client onboarding operations.
+A collection of workflow automations built using n8n to streamline internal business processes, document management and notifications
 
 ---
 
