@@ -167,5 +167,7 @@ Automates internal pricing notifications between recruitment and finance/sales t
 
 
 
+## 5. Data Analyst & Send Email AI Agent
+
 <img width="1435" height="658" alt="image" src="https://github.com/user-attachments/assets/39df6fcd-b0fc-40cc-bd09-87487fda58e6" />
 
