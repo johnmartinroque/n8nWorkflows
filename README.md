@@ -167,7 +167,38 @@ Automates internal pricing notifications between recruitment and finance/sales t
 
 
 
-## 5. Data Analyst & Send Email AI Agent
+## 6. Data Analyst & Report Email AI Agent
 
-<img width="1435" height="658" alt="image" src="https://github.com/user-attachments/assets/39df6fcd-b0fc-40cc-bd09-87487fda58e6" />
+<img width="1435" height="658" alt="Data Analyst & Report Email AI Agent" src="https://github.com/user-attachments/assets/39df6fcd-b0fc-40cc-bd09-87487fda58e6" />
+
+### Overview
+
+An AI-powered data analysis assistant that enables users to interact with an e-commerce order dataset through natural language. The workflow retrieves live data from Google Sheets, performs calculations, generates professional PDF reports, and delivers analysis via email.
+
+### Key Features
+
+* Provides conversational data analysis using natural language queries.
+* Retrieves live order data directly from Google Sheets.
+* Performs calculations including:
+  * Revenue
+  * Sales totals
+  * Average order value
+  * Product performance
+  * Regional sales analysis
+* Automatically generates professionally formatted HTML reports.
+* Converts reports into PDF documents.
+* Sends reports via email with a secure PDF download link.
+* Maintains conversation context using AI memory for follow-up questions.
+* Ensures all analyses are based on the latest spreadsheet data.
+
+### Integrations Used
+
+* n8n AI Agent
+* Google Gemini
+* Google Sheets
+* Calculator Tool
+* PDF.co
+* SMTP Email
+* JavaScript
+* Memory Buffer
 
