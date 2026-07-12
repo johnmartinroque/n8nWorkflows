@@ -8,7 +8,8 @@ A collection of workflow automations built using n8n to streamline internal busi
 
 ## 1. Data Analyst & Report Email AI Agent
 
-<img width="1163" height="490" alt="image" src="https://github.com/user-attachments/assets/f1a5ca84-55f0-46fe-82e5-d6c5174189b4" />
+<img width="1200" height="457" alt="image" src="https://github.com/user-attachments/assets/e8dc38ee-a1d8-4ff4-9c51-8cdaba94723f" />
+
 
 
 
