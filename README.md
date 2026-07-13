@@ -44,7 +44,66 @@ An AI-powered data analysis assistant that enables users to interact with an e-c
 * JavaScript
 * Memory Buffer
 
-## 2. Employee Document Upload to SharePoint
+
+## InsightForge – AI Business Intelligence Assistant
+
+<img width="1184" height="456" alt="image" src="https://github.com/user-attachments/assets/02ff6c5e-d1e4-4302-a5f1-831e7e49015a" />
+
+
+### Overview
+
+InsightForge is an AI-powered business intelligence workflow built with n8n that enables users to analyze product data through natural language conversations. The workflow retrieves live information from Google Sheets, performs data analysis using Google Gemini, maintains conversational context, and returns structured responses with optional chart data for frontend visualization.
+
+### Key Features
+
+* Accepts natural language business questions through a webhook API.
+* Validates incoming requests before processing.
+* Uses Google Gemini AI to interpret analytical queries.
+* Retrieves live product data directly from Google Sheets.
+* Performs calculations including:
+  * Product comparisons
+  * Sales analysis
+  * Inventory analysis
+  * Category summaries
+  * Average values
+  * Counts and filtering
+* Automatically determines when charts are appropriate.
+* Returns structured JSON responses containing:
+  * Business-friendly insights
+  * Chart configuration for frontend rendering
+* Supports multiple chart types:
+  * Bar Charts
+  * Line Charts
+  * Pie Charts
+* Maintains conversation history using AI memory for contextual follow-up questions.
+* Includes response formatting and validation to ensure consistent API output.
+* Provides error handling for invalid or incomplete requests.
+
+### Workflow Process
+
+1. Receives a user query through a webhook.
+2. Validates that the request contains a message.
+3. Sends the query to the AI Agent.
+4. Retrieves relevant product data from Google Sheets.
+5. Performs the requested calculations and analysis.
+6. Generates structured JSON containing:
+   * Natural language response
+   * Optional chart data
+7. Formats and validates the AI output.
+8. Returns the response to the frontend through the webhook.
+
+### Integrations Used
+
+* n8n AI Agent
+* Google Gemini
+* Google Sheets
+* Webhooks
+* JavaScript
+* Memory Buffer
+* HTTP API
+
+
+## 3. Employee Document Upload to SharePoint
 
 <img width="1171" height="479" alt="File Upload - Monday.com to SharePoint Workflow" src="https://github.com/user-attachments/assets/f789ae8e-ba2e-4a53-9da7-3731e7f314fe" />
 
@@ -78,7 +137,7 @@ Automates the transfer of employee onboarding documents from Monday.com to Share
 
 ---
 
-## 3. Service Agreement Status Tracking — Sent
+## 4. Service Agreement Status Tracking — Sent
 
 <img width="958" height="772" alt="Service Agreement - Sent Workflow Full View" src="https://github.com/user-attachments/assets/64b29f1d-8815-4658-86f5-ff11f761838c" />
 
@@ -112,7 +171,7 @@ Tracks PandaDoc service agreements when documents are sent to clients.
 
 ---
 
-## 4. Service Agreement Status Tracking — Viewed
+## 5. Service Agreement Status Tracking — Viewed
 
 <img width="845" height="693" alt="Service Agreement - Viewed" src="https://github.com/user-attachments/assets/4fab9eac-4d1d-47a2-b47b-73ab8bee7549" />
 
@@ -144,7 +203,7 @@ Tracks when clients open and view service agreements.
 
 ---
 
-## 5. Service Agreement Status Tracking — Completed
+## 6. Service Agreement Status Tracking — Completed
 
 <img width="1644" height="936" alt="Service Agreement - Completed" src="https://github.com/user-attachments/assets/21fab2be-d80f-411b-9111-f1b4c5b5a4f0" />
 
@@ -181,7 +240,7 @@ Automates the final stage of the service agreement lifecycle after client comple
 
 ---
 
-## 6. Pricing File Upload Notification
+## 7. Pricing File Upload Notification
 
 <img width="1588" height="936" alt="Pricing Upload Notification" src="https://github.com/user-attachments/assets/ac854c35-b509-4f8a-8dd7-bcf4383c2730" />
 
