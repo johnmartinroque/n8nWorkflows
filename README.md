@@ -6,46 +6,58 @@ A collection of workflow automations built using n8n to streamline internal busi
 
 
 
-## 1. Data Analyst & Report Email AI Agent
+## 1. Automated Monthly Business Reporting System
 
-<img width="1200" height="457" alt="image" src="https://github.com/user-attachments/assets/e8dc38ee-a1d8-4ff4-9c51-8cdaba94723f" />
-
-
-
+![Automated Monthly Business Reporting System](YOUR_WORKFLOW_IMAGE_HERE)
 
 ### Overview
 
-An AI-powered data analysis assistant that enables users to interact with an e-commerce order dataset through natural language. The workflow retrieves live data from Google Sheets, performs calculations, generates professional PDF reports, and delivers analysis via email.
+An AI-powered workflow that automatically generates monthly Sales & Inventory reports using live Google Sheets data. Scheduled to run on the first day of every month, the workflow analyzes business performance, creates a professionally formatted PDF report, stores it in Google Drive, and emails it to stakeholders.
 
 ### Key Features
 
-* Provides conversational data analysis using natural language queries.
-* Retrieves live order data directly from Google Sheets.
+* Automatically runs on a monthly schedule using a Cron trigger.
+* Determines the current month and retrieves data from the corresponding Google Sheets worksheet.
+* Uses Google Gemini AI to generate business insights and executive summaries.
 * Performs calculations including:
-  * Revenue
-  * Sales totals
-  * Average order value
-  * Product performance
-  * Regional sales analysis
-* Automatically generates professionally formatted HTML reports.
-* Converts reports into PDF documents.
-* Sends reports via email with a secure PDF download link.
-* Maintains conversation context using AI memory for follow-up questions.
-* Ensures all analyses are based on the latest spreadsheet data.
+  * Total Revenue
+  * Total COGS
+  * Gross Profit
+  * Average Gross Margin
+  * Units Sold
+  * Low Stock Products
+* Generates a professionally formatted HTML Sales & Inventory report.
+* Converts the HTML report into a PDF using PDF.co.
+* Uploads the generated PDF to Google Drive for centralized storage.
+* Automatically emails the completed report as an attachment to stakeholders.
+* Eliminates manual report preparation and ensures timely monthly reporting.
+
+### Workflow Process
+
+1. Executes automatically on the first day of each month.
+2. Determines the current month.
+3. Retrieves live sales and inventory data from the corresponding Google Sheets tab.
+4. Uses Google Gemini AI to analyze business performance.
+5. Calculates key business metrics using the Calculator Tool.
+6. Generates a one-page HTML Sales & Inventory report.
+7. Converts the report into a PDF.
+8. Uploads the PDF to Google Drive.
+9. Sends the completed report via email with the PDF attached.
 
 ### Integrations Used
 
 * n8n AI Agent
 * Google Gemini
 * Google Sheets
-* Calculator Tool
+* Google Drive
 * PDF.co
 * SMTP Email
+* Schedule Trigger (Cron)
+* Calculator Tool
 * JavaScript
-* Memory Buffer
 
 
-## InsightForge – AI Business Intelligence Assistant
+## 2. InsightForge – AI Business Intelligence Assistant
 
 <img width="1184" height="456" alt="image" src="https://github.com/user-attachments/assets/02ff6c5e-d1e4-4302-a5f1-831e7e49015a" />
 
