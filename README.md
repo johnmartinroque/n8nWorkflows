@@ -8,7 +8,8 @@ A collection of workflow automations built using n8n to streamline internal busi
 
 ## 1. Automated Monthly Business Reporting System
 
-![Automated Monthly Business Reporting System](YOUR_WORKFLOW_IMAGE_HERE)
+<img width="1217" height="427" alt="image" src="https://github.com/user-attachments/assets/fc54a91b-9d57-46d3-8c25-af9050dfa43a" />
+
 
 ### Overview
 
