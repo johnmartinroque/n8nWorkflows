@@ -276,5 +276,62 @@ Automates internal pricing notifications between recruitment and finance/sales t
 * HTTP
 * JavaScript
 
+## 8. AI-Powered Monthly Sales & Inventory Reporting System (With Format)
 
+<img width="1600" height="900" alt="AI Monthly Sales & Inventory Reporting Workflow" src="YOUR_WORKFLOW_IMAGE_URL_HERE" />
+
+### Overview
+
+An AI-powered reporting workflow that automatically generates professional monthly Sales & Inventory reports from live Google Sheets data. Running on a scheduled trigger, the workflow analyzes sales performance using Google Gemini, calculates key business metrics, renders a polished HTML report, converts it into a PDF, stores it in Google Drive, and emails the completed report to stakeholders.
+
+Unlike traditional reporting workflows, this version dynamically generates executive insights, profitability analysis, revenue visualizations, and business recommendations without requiring manual intervention.
+
+### Key Features
+
+* Automatically runs on the first day of every month using a Schedule Trigger.
+* Determines the current reporting month automatically.
+* Retrieves live sales and inventory data from Google Sheets.
+* Uses Google Gemini AI to generate business analysis and executive summaries.
+* Calculates business KPIs including:
+  * Total Revenue
+  * Total COGS
+  * Gross Profit
+  * Average Gross Margin
+  * Total Units Sold
+* Compares current and previous month performance when historical data is available.
+* Identifies:
+  * Top 3 Highest Margin Products
+  * Top 3 Lowest Margin Products
+* Generates revenue-by-category visualizations directly inside the report.
+* Produces AI-generated business recommendations based on sales performance.
+* Dynamically renders a professionally formatted HTML report using a custom template.
+* Converts the HTML report into a high-quality PDF using PDF.co.
+* Automatically uploads the finished report to Google Drive.
+* Emails the PDF report to stakeholders as an attachment.
+
+### Workflow Process
+
+1. Executes automatically on a monthly schedule.
+2. Determines the current month and report filename.
+3. Retrieves live sales data from the corresponding Google Sheets worksheet.
+4. Optionally retrieves previous month's data for performance comparison.
+5. Uses Google Gemini AI to analyze sales performance and generate structured report data.
+6. Calculates business KPIs and profitability metrics.
+7. Renders a fully formatted HTML Sales & Inventory report.
+8. Converts the HTML report into a PDF.
+9. Downloads the generated PDF.
+10. Uploads the report to Google Drive.
+11. Sends the completed report via email with the PDF attached.
+
+### Integrations Used
+
+* n8n AI Agent
+* Google Gemini
+* Google Sheets
+* PDF.co
+* Google Drive
+* SMTP Email
+* Schedule Trigger
+* JavaScript
+* Calculator Tool
 
